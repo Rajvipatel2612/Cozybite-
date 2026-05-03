@@ -1,0 +1,58 @@
+*{
+  font-family: Arial, sans-serif;
+	margin:0px;
+	padding:0px;
+}
+body{
+  position: relative;
+  background:linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url("../images/restpage.jpg");
+  color: #4B2E05;
+  min-height: 100vh; 
+  overflow-x: hidden;
+}
+.header{
+	display: flex;
+	align-items:center; 
+	
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.header nav a{
+	color:#4B2E05;
+	text-decoration:none;
+    margin-left: 70px;
+    margin-right:20px;
+}
+
+img{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  display:block;
+  padding:5px;
+}
+.profileicon img{
+  height: 30px;
+  width: 30px;
+  border-radius: 0%;
+  cursor: pointer;
+  padding-left:50px;
+  
+}
+.main{
+	text-align:center;
+	color:#4B2E05;
+	padding:60px 20px;
+	
+}
+button{
+    background:#FFEBD6;
+  border:none;
+  color:#4B2E05;
+  padding:10px 20px;
+  border-radius:5px;
+  cursor:pointer;
+}
+button:hover{background:#4B2E05;
+             color:#FFEBD6  }
+
